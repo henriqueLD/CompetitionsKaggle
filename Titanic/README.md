@@ -1,8 +1,4 @@
-# About Dataset
-
-In this competition, you’ll gain access to two similar datasets that include passenger information like name, age, gender, socio-economic class, etc.
-
-## Competition Objective
+# Competition Objective
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
 
@@ -27,24 +23,26 @@ In this challenge, we ask you to build a predictive model that answers the quest
 | cabin    | Cabin number                               |                                                |
 | embarked | Port of Embarkation                        | C = Cherbourg, Q = Queenstown, S = Southampton |
 
-Variable Notes
-pclass: A proxy for socio-economic status (SES)
+**Variable Notes**
+**pclass:** A proxy for socio-economic status (SES)
 1st = Upper
 2nd = Middle
 3rd = Lower
 
-age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+**age:** Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
 
-sibsp: The dataset defines family relations in this way...
+**sibsp:** The dataset defines family relations in this way...
 Sibling = brother, sister, stepbrother, stepsister
 Spouse = husband, wife (mistresses and fiancés were ignored)
 
-parch: The dataset defines family relations in this way...
+**parch:** The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
 ### Submissions
+
+My submission on the competition
 
 ```console
 fileName        date                 description                                      status    publicScore  privateScore  
@@ -64,7 +62,7 @@ submission.csv  2022-08-09 21:27:49  second submission for titanic              
 submission.csv  2022-08-08 23:59:05  first submission on titanic                      complete  0.74401
 ```
 
-## Competition
+## Competition Link
 
 * [DataRepository](https://www.kaggle.com/competitions/titanic/data) - Link to the data repository.
 
