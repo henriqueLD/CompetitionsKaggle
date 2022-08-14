@@ -1,14 +1,50 @@
 # About Dataset
 
-One Paragraph about data description goes here. You can also state why this data was collected.
+In this competition, you’ll gain access to two similar datasets that include passenger information like name, age, gender, socio-economic class, etc.
 
-## About Data collection methodology
+## Competition Objective
 
-This description gives a detailed process on how the data was collected. It should describe the conditions under which the data was recorded and also the devices used to record the data.
+The sinking of the Titanic is one of the most infamous shipwrecks in history.
+
+On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
+In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
 ### Description of the data
 
-Here you can descibe how the data is organized in this whole dataset. How the data is stored in all the files. You also have to brief about the naming convention of the files in different directories. 
+| Variable | Definition                                 | Key                                            |
+|----------|--------------------------------------------|------------------------------------------------|
+| survival | Survival                                   | 0 = No, 1 = Yes                                |
+| pclass   | Ticket class                               | 1 = 1st, 2 = 2nd, 3 = 3rd                      |
+| sex      | Sex                                        |                                                |
+| Age      | Age in years                               |                                                |
+| sibsp    | # of siblings / spouses aboard the Titanic |                                                |
+| parch    | # of parents / children aboard the Titanic |                                                |
+| ticket   | Ticket number                              |                                                |
+| fare     | Passenger fare                             |                                                |
+| cabin    | Cabin number                               |                                                |
+| embarked | Port of Embarkation                        | C = Cherbourg, Q = Queenstown, S = Southampton |
+
+Variable Notes
+pclass: A proxy for socio-economic status (SES)
+1st = Upper
+2nd = Middle
+3rd = Lower
+
+age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+
+sibsp: The dataset defines family relations in this way...
+Sibling = brother, sister, stepbrother, stepsister
+Spouse = husband, wife (mistresses and fiancés were ignored)
+
+parch: The dataset defines family relations in this way...
+Parent = mother, father
+Child = daughter, son, stepdaughter, stepson
+Some children travelled only with a nanny, therefore parch=0 for them.
+
+### Submissions
 
 ```console
 fileName        date                 description                                      status    publicScore  privateScore  
@@ -28,26 +64,9 @@ submission.csv  2022-08-09 21:27:49  second submission for titanic              
 submission.csv  2022-08-08 23:59:05  first submission on titanic                      complete  0.74401
 ```
 
-### And file formats
+## Competition
 
-If the data includes images or audio, you can mention the file format eg.(.svg, .png, .mpeg).
-```
--500 images, format svg.
-```
-
-## Online Repository link
-
-* [DataRepository](https://www.kaggle.com/datasets) - Link to the data repository.
-
-## Authors
-
-* **authorname** - *Initial work* - [shashvatshah9](https://github.com/shashvatshah9)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* [DataRepository](https://www.kaggle.com/competitions/titanic/data) - Link to the data repository.
 
 ## Acknowledgments
 
