@@ -42,11 +42,16 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 
 ### Submissions
 
-My submission on the competition
+Best submission: 0.78947 - Random Forest
+
+My submissions on the competition
+
 
 ```console
 fileName        date                 description                                      status    publicScore  privateScore  
 --------------  -------------------  -----------------------------------------------  --------  -----------  ------------
+submission.csv  2022-08-14 02:16:51  xgboost tuned, standard scaler                   complete  0.77511
+submission.csv  2022-08-14 02:16:09  rf tuned, standard scaler                        complete  0.78947
 submission.csv  2022-08-13 23:33:58  log reg with standard scale                      complete  0.77751
 submission.csv  2022-08-13 23:33:36  rf tuned with standard scale                     complete  0.78468
 submission.csv  2022-08-13 23:33:12  xgb tuned  with standard scale                   complete  0.77511
